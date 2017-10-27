@@ -90,7 +90,7 @@ function Gid($next_max_id = null, $i = 1)
 		$cek = json_decode($check[1]);
 		if ($cek->followed_by == false) {
 			echo $i . ". @" . $username_ . " belum follback kamu.<br/>";
-			$action = 'destroy'; 
+			$action = 'nothing'; 
 			$data = '{"user_id":"'.$user_id.'"}';
 			$sig = GenerateSignature($data);
 			$new_data = 'signed_body='.$sig.'.'.urlencode($data).'&ig_sig_key_version=4';
