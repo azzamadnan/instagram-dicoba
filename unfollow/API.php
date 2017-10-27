@@ -111,7 +111,7 @@ function Gid($next_max_id = null, $i = 1)
 	}
 	if($max_id) {
 		notFollback($max_id, $i);
-		
+		exit();
 	}
 	$i--;
 	echo "$i yang belum follback sudah di unfollow<br/>";
