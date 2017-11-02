@@ -1,4 +1,4 @@
 <?php
-$usernamemu = 'diisinya'; //Username Instagram Kamu
-$passwordmu = 'disiniya'; //Password Instagram Kamu
-$ID = '000000'; //UserID Instagram Kamu
+$usernamemu = 'azhimazzam'; //Username Instagram Kamu
+$passwordmu = 'fauzul321'; //Password Instagram Kamu
+$ID = '1274610804'; //UserID Instagram Kamu
